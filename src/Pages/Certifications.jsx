@@ -1,5 +1,5 @@
 import React from "react";
-import CertificationCard from "@/components/portfolio/CertificationCard";
+import CertificationCard from "../Components/portfolio/CertificationCard";
 
 const sampleCerts = [
   {

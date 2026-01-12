@@ -12,7 +12,7 @@ import {
   Trophy,
   Heart,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "./Components/ui/button";
 
 export default function Layout({ children, currentPageName }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

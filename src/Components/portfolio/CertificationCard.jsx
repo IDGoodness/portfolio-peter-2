@@ -1,12 +1,7 @@
 import React, { useState } from "react";
-import { Card } from "@/components/ui/card";
+import { Card } from "../ui/card";
 import { Award, ExternalLink, Calendar, Building } from "lucide-react";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "../ui/dialog";
 
 export default function CertificationCard({ certification }) {
   const [showPreview, setShowPreview] = useState(false);

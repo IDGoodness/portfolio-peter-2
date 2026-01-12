@@ -1,8 +1,8 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 import { Download, Mail, Linkedin, Github } from "lucide-react";
-import cvPdf from "@/assets/Peter Adewuyi_CV.pdf";
-import profileImg from "@/assets/profile.jpeg";
+import cvPdf from "../../assets/Peter Adewuyi_CV.pdf";
+import profileImg from "../../assets/profile.jpeg";
 
 export default function HeroSection({
   name = "Peter Oluwafemi Adewuyi",

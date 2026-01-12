@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
+import { Card, CardContent } from "../ui/card";
+import { Input } from "../ui/input";
+import { Textarea } from "../ui/textarea";
+import { Button } from "../ui/button";
+import { Label } from "../ui/label";
 import { Send, CheckCircle, Loader2 } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { base44 } from "../../api/base44Client";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
