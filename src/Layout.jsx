@@ -132,11 +132,11 @@ export default function Layout({ children, currentPageName }) {
             {/* Brand */}
             <div>
               <h3 className="text-lg font-semibold text-slate-800 mb-3">
-                Portfolio
+                Peter Adewuyi
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
-                A professional portfolio showcasing skills, experience, and
-                certifications.
+                Advancing Construction Management of Sustainable and Smart
+                Cities through technology, innovations and research.
               </p>
             </div>
 
@@ -163,7 +163,9 @@ export default function Layout({ children, currentPageName }) {
               <h4 className="text-sm font-semibold text-slate-800 uppercase tracking-wider mb-4">
                 Contact
               </h4>
-              <p className="text-sm text-slate-600">your.email@example.com</p>
+              <p className="text-sm text-slate-600">
+                adewuyipeter878@gmail.com
+              </p>
             </div>
           </div>
 
