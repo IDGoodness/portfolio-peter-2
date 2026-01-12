@@ -1,0 +1,31 @@
+{
+  "name": "Certification",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Course or certification title"
+    },
+    "issuing_body": {
+      "type": "string",
+      "description": "Organization that issued the certification"
+    },
+    "year": {
+      "type": "string",
+      "description": "Year obtained"
+    },
+    "certificate_image": {
+      "type": "string",
+      "description": "URL to certificate image or preview"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the certification"
+    },
+    "credential_url": {
+      "type": "string",
+      "description": "Link to verify credential"
+    }
+  },
+  "required": ["title", "issuing_body", "year"]
+}

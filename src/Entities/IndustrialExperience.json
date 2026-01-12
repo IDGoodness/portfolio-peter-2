@@ -1,0 +1,43 @@
+{
+  "name": "IndustrialExperience",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Job title or position"
+    },
+    "company": {
+      "type": "string",
+      "description": "Company or organization name"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location"
+    },
+    "period": {
+      "type": "string",
+      "description": "Employment period"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["Full-time", "Part-time", "Internship", "Training", "Contract"],
+      "description": "Employment type"
+    },
+    "description": {
+      "type": "string",
+      "description": "Role description"
+    },
+    "responsibilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Key responsibilities"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Image from the workplace or project"
+    }
+  },
+  "required": ["title", "company"]
+}

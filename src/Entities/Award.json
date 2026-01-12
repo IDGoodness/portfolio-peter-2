@@ -1,0 +1,39 @@
+{
+  "name": "Award",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Award or honor title"
+    },
+    "organization": {
+      "type": "string",
+      "description": "Organization that granted the award"
+    },
+    "year": {
+      "type": "string",
+      "description": "Year received"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Academic",
+        "Scholarship",
+        "Project",
+        "Competition",
+        "Leadership",
+        "Other"
+      ],
+      "description": "Category of award"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the award"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Image of the award or ceremony"
+    }
+  },
+  "required": ["title", "organization", "year"]
+}

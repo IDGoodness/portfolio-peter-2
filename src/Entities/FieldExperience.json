@@ -1,0 +1,27 @@
+{
+  "name": "FieldExperience",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Project or site name"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Image from the project site"
+    },
+    "caption": {
+      "type": "string",
+      "description": "Short description of the experience"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location of the project"
+    },
+    "date": {
+      "type": "string",
+      "description": "Date or period"
+    }
+  },
+  "required": ["title", "image_url"]
+}
