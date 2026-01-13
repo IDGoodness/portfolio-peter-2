@@ -7,6 +7,12 @@ import pythonDataImg from "../assets/certificates/pythondatacert.jpg";
 import niqsImg from "../assets/certificates/niqscert.jpg";
 import mlImg from "../assets/certificates/mlcert.jpg";
 import gradeplusImg from "../assets/certificates/gradepluscert.jpg";
+import understand from "../assets/certificates/Understanding Data Science certificate_page-0001.jpg";
+import inter from "../assets/certificates/Intermediate SQL Queries Certificate_page-0001.jpg";
+import dsforeveryone from "../assets/certificates/DS for everyone certificate_page-0001.jpg";
+import datavizsea from "../assets/certificates/Data Viz with Seaborn certificate_page-0001.jpg";
+import datavizmatplotlib from "../assets/certificates/Data Viz with Matplotlibs certificate_page-0001.jpg"
+import datamani from "../assets/certificates/Data manipulation with Pandas Certificate_page-0001.jpg";
 
 // NOTE: Details below are inferred from filenames; please edit titles/issuers/years as needed.
 const sampleCerts = [
@@ -46,6 +52,48 @@ const sampleCerts = [
     description: "Assessment-based certification from GradePlus.",
     certificate_image: gradeplusImg,
   },
+  {
+    title: "Data Manipulation with Pandas",
+    issuing_body: "Datacamp",
+    year: "2022",
+    description: "Learn to manipulate and analyze data using Pandas.",
+    certificate_image: datamani,
+  },
+  {
+    title: "Data Visualization with Matplotlib",
+    issuing_body: "Datacamp",
+    year: "2022",
+    description: "Learn to visualize data using Matplotlib.",
+    certificate_image: datavizmatplotlib,
+  },
+  {
+    title: "Data Visualization with Seaborn",
+    issuing_body: "Datacamp",
+    year: "2022",
+    description: "Learn to visualize data using Seaborn.",
+    certificate_image: datavizsea,
+  },
+  {
+    title: "Data Science for Everyone",
+    issuing_body: "Datacamp",
+    year: "2022",
+    description: "Introduction to data science concepts and techniques.",
+    certificate_image: dsforeveryone,
+  },
+  {
+    title: "Understanding Data Science",
+    issuing_body: "Datacamp",
+    year: "2022",
+    description: "Learn the fundamentals of data science.",
+    certificate_image: understand,
+  },
+  {
+    title: "Intermediate SQL Queries",
+    issuing_body: "Datacamp",
+    year: "2022",
+    description: "Learn to write intermediate SQL queries for data analysis.",
+    certificate_image: inter,
+  }
 ];
 
 export default function Certifications() {
