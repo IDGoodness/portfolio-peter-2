@@ -1,18 +1,50 @@
 import React from "react";
 import CertificationCard from "../Components/portfolio/CertificationCard";
 
+// Images from src/assets/certificates
+import smartCityImg from "../assets/certificates/smartcity-cert.jpg";
+import pythonDataImg from "../assets/certificates/pythondatacert.jpg";
+import niqsImg from "../assets/certificates/niqscert.jpg";
+import mlImg from "../assets/certificates/mlcert.jpg";
+import gradeplusImg from "../assets/certificates/gradepluscert.jpg";
+
+// NOTE: Details below are inferred from filenames; please edit titles/issuers/years as needed.
 const sampleCerts = [
   {
-    title: "Advanced React",
-    issuing_body: "Training Co",
+    title: "Smart Cities: Planning & Management",
+    issuing_body: "Smart City Institute",
     year: "2023",
-    description: "Practical React course",
+    description:
+      "Overview of sustainable & smart city planning and management.",
+    certificate_image: smartCityImg,
   },
   {
-    title: "Data Science Intro",
-    issuing_body: "University",
-    year: "2022",
-    description: "Foundations of data analysis",
+    title: "Python for Data Science, AI & Development",
+    issuing_body: "IBM",
+    year: "2024",
+    description: "Foundations of Python for data analysis and visualization.",
+    certificate_image: pythonDataImg,
+  },
+  {
+    title: "NIQS Certification",
+    issuing_body: "NIQS",
+    year: "2024",
+    description: "Professional certification from NIQS.",
+    certificate_image: niqsImg,
+  },
+  {
+    title: "Machine Learning Fundamentals",
+    issuing_body: "IBM",
+    year: "2025",
+    description: "Introductory machine learning concepts and practice.",
+    certificate_image: mlImg,
+  },
+  {
+    title: "Advanced Research Writing",
+    issuing_body: "GradePlus Africa",
+    year: "2025",
+    description: "Assessment-based certification from GradePlus.",
+    certificate_image: gradeplusImg,
   },
 ];
 
@@ -22,7 +54,7 @@ export default function Certifications() {
       <h2 className="text-3xl font-light text-slate-800 mb-6">
         Certifications
       </h2>
-      <div className="grid sm:grid-cols-2 gap-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {sampleCerts.map((c, i) => (
           <CertificationCard key={i} certification={c} />
         ))}
