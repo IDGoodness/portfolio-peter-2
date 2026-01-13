@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Prevent horizontal scroll caused by some absolute/decorative elements */
+html, body, #root {
+  overflow-x: hidden;
+}

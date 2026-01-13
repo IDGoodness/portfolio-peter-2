@@ -19,9 +19,9 @@ export default function HeroSection({
       {/* Subtle gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-white to-blue-50/30" />
 
-      {/* Decorative elements */}
-      <div className="absolute top-20 right-20 w-72 h-72 bg-blue-100/20 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 left-10 w-96 h-96 bg-slate-100/40 rounded-full blur-3xl" />
+      {/* Decorative elements (hidden on small screens to avoid overflow) */}
+      <div className="hidden lg:block absolute top-20 right-20 w-72 h-72 bg-blue-100/20 rounded-full blur-3xl" />
+      <div className="hidden lg:block absolute bottom-20 left-10 w-96 h-96 bg-slate-100/40 rounded-full blur-3xl" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-8 w-full">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">

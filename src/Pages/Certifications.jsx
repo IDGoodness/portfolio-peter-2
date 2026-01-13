@@ -20,8 +20,7 @@ const sampleCerts = [
     title: "Smart Cities: Planning & Management",
     issuing_body: "Smart City Institute",
     year: "2023",
-    description:
-      "Overview of sustainable & smart city planning and management.",
+    description: "Overview of sustainable & smart city planning and management.",
     certificate_image: smartCityImg,
   },
   {
