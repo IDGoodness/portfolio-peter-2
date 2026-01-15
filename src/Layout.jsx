@@ -20,11 +20,11 @@ export default function Layout({ children, currentPageName }) {
   const navLinks = [
     { name: "About", page: "Home", icon: Home },
     { name: "Industrial", page: "IndustrialExperience", icon: Wrench },
-    { name: "Research", page: "ResearchExperience", icon: FlaskConical },
+    // { name: "Research", page: "ResearchExperience", icon: FlaskConical },
     { name: "Certifications", page: "Certifications", icon: Award },
     { name: "Awards", page: "Awards", icon: Trophy },
-    { name: "Volunteering", page: "Volunteering", icon: Heart },
-    { name: "Contact", page: "Contact", icon: Mail },
+    // { name: "Volunteering", page: "Volunteering", icon: Heart },
+    // { name: "Contact", page: "Contact", icon: Mail },
   ];
 
   return (
@@ -131,9 +131,16 @@ export default function Layout({ children, currentPageName }) {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Brand */}
             <div>
-              <h3 className="text-lg font-semibold text-slate-800 mb-3">
-                Peter Adewuyi
-              </h3>
+              <div className="flex items-center gap-3 mb-4">
+                <img
+                  src="../public/profile.ico"
+                  alt="ProfileImg"
+                  className="w-10"
+                />
+                <h3 className="text-lg font-semibold text-slate-800">
+                  Peter Oluwafemi Adewuyi
+                </h3>
+              </div>
               <p className="text-slate-600 text-sm leading-relaxed">
                 Advancing Construction Management of Sustainable and Smart
                 Cities through technology, innovations and research.
@@ -172,6 +179,11 @@ export default function Layout({ children, currentPageName }) {
           <div className="mt-10 pt-8 border-t border-slate-200 text-center">
             <p className="text-sm text-slate-500">
               © {new Date().getFullYear()} All rights reserved.
+            </p>
+            <p className="text-[8px] text-green-800">
+              Designed with ❤️ by{" "}
+              <a href="https://github.com/IDGoodness" target="_blank">Cḥrēstótēs🔥</a> - His
+              brother😁
             </p>
           </div>
         </div>

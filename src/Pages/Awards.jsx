@@ -25,7 +25,7 @@ const awardsData = [
     title: "Certificate of Membership - Baptist Student Fellowship",
     organization: "Mission Subgroup, Baptist Student Fellowship, OAU",
     year: "2024",
-    category: "Scholarship",
+    category: "Leadership",
     description: "For the immense contribution to the subgroup.",
     image_url: "/src/assets/awards/award2.jpg",
   },
@@ -34,7 +34,7 @@ const awardsData = [
     title: "Certificate of Academic Excellence - Baptist Student Fellowship",
     organization: "Academic Unit, Baptist Student Fellowship, OAU",
     year: "2024",
-    category: "Project",
+    category: "Academic",
     description:
       "As the best graduating student in the Faculty of Environmental Design and Management, Baptist Student Fellowship, Obafemi Awolowo University, in the 2022/2023 academic session.",
     image_url: "/src/assets/awards/award3.jpg",
@@ -44,7 +44,7 @@ const awardsData = [
     title: "Certificate of Appreciation - Baptist Student Fellowship",
     organization: "Baptist Student Fellowship, OAU",
     year: "2024",
-    category: "Competition",
+    category: "Leadership",
     description:
       "Commendation for contributing assiduosly to the successful Final Year Brethren program in the Baptist Student Fellowship, Obafemi Awolowo University, Ile-Ife, having served as the Prayer Head.",
     image_url: "/src/assets/awards/award4.jpg",
@@ -74,7 +74,7 @@ const awardsData = [
     title: "Mosobalaje A. Asupoto Prize",
     organization: "Obafemi Awolowo University, Ile-Ife, Nigeria",
     year: "2024",
-    category: "Other",
+    category: "Academic",
     description:
       "For the graduating student with the best average score in Measurement of Electrical Services Installation (QTS 511) and Measurement of Mechanical Services Installation (QTS 512) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
     image_url: "/src/assets/awards/award7.jpg",
@@ -103,7 +103,7 @@ const awardsData = [
     title: "Mosobalaje A. Asupoto Prize",
     organization: "Obafemi Awolowo University, Ile-Ife, Nigeria",
     year: "2024",
-    category: "Other",
+    category: "Academic",
     description:
       "For the graduating student with the best average score in Measurement of Electrical Services Installation (QTS 511) and Measurement of Mechanical Services Installation (QTS 512) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
     image_url: "/src/assets/awards/award10.jpg",
@@ -132,7 +132,7 @@ const awardsData = [
     title: "Certificate of Achievement - Top 100 Africa Future Leaders",
     organization: "Africa Future Leaders Festival, Lagos, Nigeria",
     year: "2025",
-    category: "Academic",
+    category: "Leadership",
     description: "Brief description of the award and its significance",
     image_url: "/src/assets/awards/award13.jpg",
   },
