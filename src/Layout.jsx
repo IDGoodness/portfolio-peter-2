@@ -130,8 +130,8 @@ export default function Layout({ children, currentPageName }) {
         <div className="max-w-6xl mx-auto px-6 lg:px-8 py-12">
           <div className="grid md:grid-cols-3 gap-8">
             {/* Brand */}
-            <div>
-              <div className="flex items-center gap-3 mb-4">
+            <div className="text-center">
+              <div className="flex items-center gap-3 ml-4 mb-4">
                 <img
                   src="../public/profile.ico"
                   alt="ProfileImg"
@@ -148,7 +148,7 @@ export default function Layout({ children, currentPageName }) {
             </div>
 
             {/* Quick Links */}
-            <div>
+            <div className="text-center">
               <h4 className="text-sm font-semibold text-slate-800 uppercase tracking-wider mb-4">
                 Quick Links
               </h4>
@@ -166,7 +166,7 @@ export default function Layout({ children, currentPageName }) {
             </div>
 
             {/* Contact */}
-            <div>
+            <div className="text-center">
               <h4 className="text-sm font-semibold text-slate-800 uppercase tracking-wider mb-4">
                 Contact
               </h4>

@@ -15,7 +15,7 @@ export default function HeroSection({
   email = "adewuyipeter878@gmail.com",
 }) {
   return (
-    <section className="relative min-h-[85vh] flex items-center">
+    <section className="relative min-h-[85vh] flex items-center overflow-hidden">
       {/* Subtle gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-white to-blue-50/30" />
 
@@ -27,7 +27,7 @@ export default function HeroSection({
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text Content */}
           <div className="order-2 lg:order-1">
-            <p className="text-sm font-medium tracking-[0.2em] text-slate-500 uppercase mb-4">
+            <p className="text-sm font-medium tracking-[0.2em] text-slate-500 uppercase lg:mt-10 mb-4">
               Welcome to my portfolio
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-slate-800 mb-4 leading-tight">
@@ -88,7 +88,7 @@ export default function HeroSection({
           </div>
 
           {/* Profile Image */}
-          <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
+          <div className="order-1 lg:order-2 flex justify-center lg:justify-end mt-10">
             <div className="relative">
               {/* Decorative ring */}
               <div className="absolute -inset-4 border border-slate-200 rounded-full opacity-60" />

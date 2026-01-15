@@ -85,7 +85,7 @@ export default function ContactForm() {
             </p>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="space-y-6 p-8">
+          <form onSubmit={handleSubmit} className="space-y-6 pt-5">
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <Label htmlFor="name" className="text-slate-900 font-semibold">
