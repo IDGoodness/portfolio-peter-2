@@ -8,6 +8,22 @@ import {
   CardTitle,
 } from "../Components/ui/card";
 import { Badge } from "../Components/ui/badge";
+import award1 from "../assets/awards/award1.jpg";
+import award2 from "../assets/awards/award2.jpg";
+import award3 from "../assets/awards/award3.jpg";
+import award4 from "../assets/awards/award4.jpg";
+import award5 from "../assets/awards/award5.jpg";
+import award6 from "../assets/awards/award6.jpg";
+import award7 from "../assets/awards/award7.jpg";
+import award8 from "../assets/awards/award8.jpg";
+import award9 from "../assets/awards/award9.jpg";
+import award10 from "../assets/awards/award10.jpg";
+import award11 from "../assets/awards/award11.jpg";
+import award12 from "../assets/awards/award12.jpg";
+import award13 from "../assets/awards/award13.jpg";
+
+
+
 
 const awardsData = [
   {
@@ -18,7 +34,7 @@ const awardsData = [
     category: "Academic",
     description:
       "For the graduating student with the best average score in Computer Laboratory Workshop; Application of Quantity Surveying Software I and II (QTS 415 and QTS 517) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
-    image_url: "/src/assets/awards/award1.jpg",
+    image_url: award1,
   },
   // {
   //   id: 2,
@@ -67,7 +83,7 @@ const awardsData = [
     category: "Academic",
     description:
       "For the best graduating student with the best average score in the Professional Practice and Procedure I and II (QTS 417 and QTS 518) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
-    image_url: "/src/assets/awards/award6.jpg",
+    image_url: award6,
   },
   {
     id: 7,
@@ -77,7 +93,7 @@ const awardsData = [
     category: "Academic",
     description:
       "For the graduating student with the best average score in Measurement of Electrical Services Installation (QTS 511) and Measurement of Mechanical Services Installation (QTS 512) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
-    image_url: "/src/assets/awards/award7.jpg",
+    image_url: award7,
   },
   // {
   //   id: 8,
@@ -96,7 +112,7 @@ const awardsData = [
     year: "2024",
     category: "Scholarship",
     description: "For outstanding performance and excellence in academics.",
-    image_url: "/src/assets/awards/award9.jpg",
+    image_url: award9,
   },
   // {
   //   id: 10,
@@ -125,17 +141,17 @@ const awardsData = [
     year: "2025",
     category: "Leadership",
     description: "Brief description of the award and its significance",
-    image_url: "/src/assets/awards/award12.jpg",
+    image_url: award12,
   },
-  {
-    id: 13,
-    title: "Certificate of Achievement - Top 100 Africa Future Leaders",
-    organization: "Africa Future Leaders Festival, Lagos, Nigeria",
-    year: "2025",
-    category: "Leadership",
-    description: "Brief description of the award and its significance",
-    image_url: "/src/assets/awards/award13.jpg",
-  },
+  // {
+  //   id: 13,
+  //   title: "Certificate of Achievement - Top 100 Africa Future Leaders",
+  //   organization: "Africa Future Leaders Festival, Lagos, Nigeria",
+  //   year: "2025",
+  //   category: "Leadership",
+  //   description: "Brief description of the award and its significance",
+  //   image_url: award13,
+  // },
 ];
 
 const categoryColors = {
