@@ -4,7 +4,6 @@ import CertificationCard from "../Components/portfolio/CertificationCard";
 // Images from src/assets/certificates
 import smartCityImg from "../assets/certificates/smartcity-cert.jpg";
 import pythonDataImg from "../assets/certificates/pythondatacert.jpg";
-import niqsImg from "../assets/certificates/niqscert.jpg";
 import mlImg from "../assets/certificates/mlcert.jpg";
 import gradeplusImg from "../assets/certificates/gradepluscert.jpg";
 import understand from "../assets/certificates/Understanding Data Science certificate_page-0001.jpg";
@@ -13,6 +12,7 @@ import dsforeveryone from "../assets/certificates/DS for everyone certificate_pa
 import datavizsea from "../assets/certificates/Data Viz with Seaborn certificate_page-0001.jpg";
 import datavizmatplotlib from "../assets/certificates/Data Viz with Matplotlibs certificate_page-0001.jpg"
 import datamani from "../assets/certificates/Data manipulation with Pandas Certificate_page-0001.jpg";
+import dataManage from "../assets/certificates/projectManage.jpg";
 
 // NOTE: Details below are inferred from filenames; please edit titles/issuers/years as needed.
 const sampleCerts = [
@@ -30,13 +30,13 @@ const sampleCerts = [
     description: "Foundations of Python for data analysis and visualization.",
     certificate_image: pythonDataImg,
   },
-  {
-    title: "NIQS Certification",
-    issuing_body: "NIQS",
-    year: "2024",
-    description: "Professional certification from NIQS.",
-    certificate_image: niqsImg,
-  },
+  // {
+  //   title: "NIQS Certification",
+  //   issuing_body: "NIQS",
+  //   year: "2024",
+  //   description: "Professional certification from NIQS.",
+  //   certificate_image: niqsImg,
+  // },
   {
     title: "Machine Learning Fundamentals",
     issuing_body: "IBM",
@@ -92,6 +92,13 @@ const sampleCerts = [
     year: "2022",
     description: "Learn to write intermediate SQL queries for data analysis.",
     certificate_image: inter,
+  },
+  {
+    title: "Developing Professional Project Plans through MS Project",
+    issuing_body: "Udemy",
+    year: "2023",
+    description: "Learn to create and manage project plans using MS Project.",
+    certificate_image: dataManage,
   }
 ];
 

@@ -20,10 +20,10 @@ export default function Layout({ children, currentPageName }) {
   const navLinks = [
     { name: "About", page: "Home", icon: Home },
     { name: "Industrial", page: "IndustrialExperience", icon: Wrench },
-    // { name: "Research", page: "ResearchExperience", icon: FlaskConical },
+    { name: "Conferences", page: "ResearchExperience", icon: FlaskConical },
     { name: "Certifications", page: "Certifications", icon: Award },
     { name: "Awards", page: "Awards", icon: Trophy },
-    // { name: "Volunteering", page: "Volunteering", icon: Heart },
+    { name: "Volunteering", page: "Volunteering", icon: Heart },
     // { name: "Contact", page: "Contact", icon: Mail },
   ];
 

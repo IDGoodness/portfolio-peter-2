@@ -1,10 +1,44 @@
 import React from "react";
-import GenericPage from "./GenericPage";
+import CertificationCard from "../Components/portfolio/CertificationCard";
+
+// Images from src/assets/conferences
+import conference1 from "../assets/conferences/IMG_20230927_160822_1 (1).jpg";
+import conference2 from "../assets/conferences/IMG_20240523_155536_1 (1).jpg";
+import niqsConf from "../assets/conferences/niqscert.jpg";
+
+const conferences = [
+  {
+    title: "NIQRS Conference",
+    issuing_body: "NIQRS, OAU",
+    year: "2023",
+    description: "Attended and presented research findings.",
+    certificate_image: conference1,
+  },
+  {
+    title: "Ife Built Environment Summit 1.0",
+    issuing_body: "IBES",
+    year: "2024",
+    description: "Participated in academic discussion and networking.",
+    certificate_image: conference2,
+  },
+  {
+    title: "NIQS Conference",
+    issuing_body: "NIQS",
+    year: "2024",
+    description: "Professional conference participation.",
+    certificate_image: niqsConf,
+  },
+];
 
 export default function ResearchExperience() {
   return (
-    <GenericPage title="Research">
-      <p className="text-slate-600">Research experience details.</p>
-    </GenericPage>
+    <div className="max-w-6xl mx-auto px-6 lg:px-8 py-20">
+      <h2 className="text-3xl font-light text-slate-800 mb-6">Conferences</h2>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {conferences.map((conference, i) => (
+          <CertificationCard key={i} certification={conference} />
+        ))}
+      </div>
+    </div>
   );
 }
