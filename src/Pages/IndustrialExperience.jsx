@@ -44,13 +44,13 @@ export default function IndustrialExperience() {
         // description: "Survey and measurements being recorded.",
         tag: "Photo",
       },
-      // {
-      //   id: "img3b",
-      //   src: img3b,
-      //   title: "Survey Capture (alt) - 2022-08-16",
-      //   description: "Alternate angle of survey activities.",
-      //   tag: "Photo",
-      // },
+      {
+        id: "img3b",
+        src: img3b,
+        title: "Survey Capture",
+        description: "Alternate angle of survey activities.",
+        tag: "Photo",
+      },
       {
         id: "img4",
         src: img4,

@@ -5,6 +5,7 @@ import CertificationCard from "../Components/portfolio/CertificationCard";
 import conference1 from "../assets/conferences/IMG_20230927_160822_1 (1).jpg";
 import conference2 from "../assets/conferences/IMG_20240523_155536_1 (1).jpg";
 import niqsConf from "../assets/conferences/niqscert.jpg";
+import volunteer3 from "../assets/conferences/volunteer3.jpeg";
 
 const conferences = [
   {
@@ -29,6 +30,13 @@ const conferences = [
     description: "Professional conference participation.",
     certificate_image: niqsConf,
   },
+  {
+    title: "Ogbomso Digital Economic Summit 2025",
+    issuing_body: "Ennovate Lab",
+    year: "2025",
+    description: "Theme: Financing and Deploying Resources for Digital Transformation.",
+    certificate_image: volunteer3,
+  }
 ];
 
 export default function ResearchExperience() {
