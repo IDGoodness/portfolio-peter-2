@@ -5,7 +5,7 @@ import CertificationCard from "../Components/portfolio/CertificationCard";
 import iblesVolunteer from "../assets/volunteering/Adewuyi Peter - IBES Volunteer Certificate_page-0001.jpg";
 import adrCert from "../assets/volunteering/Peter Adewuyi. ADR_page-0001.jpg";
 import volunteer1 from "../assets/volunteering/IMG_20250914_192540.jpg";
-// import volunteer2 from "../assets/volunteering/IMG_20250914_192604.jpg";
+import volunteer2 from "../assets/volunteering/project100.jpg";
 // import volunteer3 from "../assets/volunteering/IMG_20250914_192703.jpg";
 import volunteer4 from "../assets/volunteering/IMG_20250914_192729.jpg";
 
@@ -14,7 +14,7 @@ const volunteerWork = [
     title: "Planning Committee for Ife Built Environments Summits",
     issuing_body: "IBES",
     year: "2024",
-    description: "Volunteer work with IBES organization.",
+    description: "Volunteer in planning for the Summits.",
     certificate_image: iblesVolunteer,
   },
   {
@@ -31,13 +31,13 @@ const volunteerWork = [
     description: "Community volunteering experience.",
     certificate_image: volunteer1,
   },
-  // {
-  //   title: "Best Student, Faculty of EDM, BSF",
-  //   issuing_body: "Baptist Student Fellowship",
-  //   year: "2024",
-  //   description: "Community volunteering experience.",
-  //   certificate_image: volunteer2,
-  // },
+  {
+    title: "Project Manager : Project 100 scholarship",
+    issuing_body: "Project100 Schorship",
+    year: "2025",
+    description: "Sending out of school children back to school.",
+    certificate_image: volunteer2,
+  },
   // {
   //   title: "Prayer Head, BSF",
   //   issuing_body: "Baptist Student Fellowship",
