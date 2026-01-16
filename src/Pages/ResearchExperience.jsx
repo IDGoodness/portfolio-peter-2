@@ -9,14 +9,15 @@ import volunteer3 from "../assets/conferences/volunteer3.jpeg";
 
 const conferences = [
   {
-    title: "NIQRS Conference",
-    issuing_body: "NIQRS, OAU",
+    title:
+      "Nigeria Institute of Quantity Surveyors (NIQS) Oyo State Chapter, Annual General meeting and Workshop ",
+    issuing_body: "NIQS, OYO",
     year: "2023",
     description: "Theme: Sustainable Infrastructural Management.",
     certificate_image: conference1,
   },
   {
-    title: "NIQS Young professional Technical Symposium And Exhibition (YPTSE)",
+    title: "Ife Built Environments Summits 1.0",
     issuing_body: "IBES",
     year: "2024",
     description:
@@ -24,19 +25,20 @@ const conferences = [
     certificate_image: conference2,
   },
   {
-    title: "NIQS Conference",
+    title: "NIQS Young professional Technical Symposium And Exhibition (YPTSE)",
     issuing_body: "NIQS",
     year: "2024",
-    description: "Professional conference participation.",
+    // description: "Professional conference participation.",
     certificate_image: niqsConf,
   },
   {
     title: "Ogbomso Digital Economic Summit 2025",
     issuing_body: "Ennovate Lab",
     year: "2025",
-    description: "Theme: Financing and Deploying Resources for Digital Transformation.",
+    description:
+      "Theme: Financing and Deploying Resources for Digital Transformation.",
     certificate_image: volunteer3,
-  }
+  },
 ];
 
 export default function ResearchExperience() {
