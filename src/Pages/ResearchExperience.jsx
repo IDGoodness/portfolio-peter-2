@@ -29,7 +29,8 @@ const conferences = [
     title: "NIQS Young professional Technical Symposium And Exhibition (YPTSE)",
     issuing_body: "NIQS",
     year: "2024",
-    // description: "Professional conference participation.",
+    description:
+      "Theme: Powering the Future of Quantity Surveying with a century of Innovation.",
     certificate_image: niqsConf,
   },
   {
@@ -44,8 +45,7 @@ const conferences = [
     title: "COSTECH Smart City conference",
     issuing_body: "COSTECH",
     year: "2023",
-    description:
-      "Theme: Powering the Future of Quantity Surveying with a century of Innovation.",
+    description: "Theme: AI in Constructions",
     certificate_image: smart,
   },
 ];
