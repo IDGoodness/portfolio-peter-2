@@ -8,10 +8,9 @@ export default function Home() {
     <div>
       <HeroSection
         name="Peter Oluwafemi Adewuyi"
-        title="Construction Technology Researcher, Research Assistant"
+        title="Early Career Researcher, Emerging Technology in Construction Enthusiast"
         bio="Advancing Construction Management of Sustainable and Smart Cities through technology, innovations and research."
       />
-      {/* hmr-test: updated */}
 
       <SectionDivider />
 

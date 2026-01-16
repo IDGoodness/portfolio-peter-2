@@ -133,7 +133,7 @@ export default function Layout({ children, currentPageName }) {
             <div className="text-center">
               <div className="flex items-center gap-3 ml-4 mb-4">
                 <img
-                  src="../public/profile.ico"
+                  src="/profile.ico"
                   alt="ProfileImg"
                   className="w-10"
                 />
