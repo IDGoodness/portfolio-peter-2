@@ -6,6 +6,7 @@ import conference1 from "../assets/conferences/IMG_20230927_160822_1 (1).jpg";
 import conference2 from "../assets/conferences/IMG_20240523_155536_1 (1).jpg";
 import niqsConf from "../assets/conferences/niqscert.jpg";
 import volunteer3 from "../assets/conferences/volunteer3.jpeg";
+import smart from "../assets/conferences/smartcity.jpg";
 
 const conferences = [
   {
@@ -38,6 +39,14 @@ const conferences = [
     description:
       "Theme: Financing and Deploying Resources for Digital Transformation.",
     certificate_image: volunteer3,
+  },
+  {
+    title: "COSTECH Smart City conference",
+    issuing_body: "COSTECH",
+    year: "2023",
+    description:
+      "Theme: Powering the Future of Quantity Surveying with a century of Innovation.",
+    certificate_image: smart,
   },
 ];
 
