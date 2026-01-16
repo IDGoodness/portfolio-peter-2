@@ -5,20 +5,20 @@ import CertificationCard from "../Components/portfolio/CertificationCard";
 import iblesVolunteer from "../assets/volunteering/Adewuyi Peter - IBES Volunteer Certificate_page-0001.jpg";
 import adrCert from "../assets/volunteering/Peter Adewuyi. ADR_page-0001.jpg";
 import volunteer1 from "../assets/volunteering/IMG_20250914_192540.jpg";
-import volunteer2 from "../assets/volunteering/IMG_20250914_192604.jpg";
-import volunteer3 from "../assets/volunteering/IMG_20250914_192703.jpg";
+// import volunteer2 from "../assets/volunteering/IMG_20250914_192604.jpg";
+// import volunteer3 from "../assets/volunteering/IMG_20250914_192703.jpg";
 import volunteer4 from "../assets/volunteering/IMG_20250914_192729.jpg";
 
 const volunteerWork = [
   {
-    title: "IBES Volunteer",
+    title: "Planning Committee for Ife Built Environments Summits",
     issuing_body: "IBES",
     year: "2024",
     description: "Volunteer work with IBES organization.",
     certificate_image: iblesVolunteer,
   },
   {
-    title: "ADR Certification",
+    title: "Member of Alternative Dispute Resolution Society",
     issuing_body: "ADR Program",
     year: "2025",
     description: "Alternative Dispute Resolution certification.",
@@ -31,20 +31,20 @@ const volunteerWork = [
     description: "Community volunteering experience.",
     certificate_image: volunteer1,
   },
-  {
-    title: "Best Student, Faculty of EDM, BSF",
-    issuing_body: "Baptist Student Fellowship",
-    year: "2024",
-    description: "Community volunteering experience.",
-    certificate_image: volunteer2,
-  },
-  {
-    title: "Prayer Head, BSF",
-    issuing_body: "Baptist Student Fellowship",
-    year: "2024",
-    description: "Community volunteering experience.",
-    certificate_image: volunteer3,
-  },
+  // {
+  //   title: "Best Student, Faculty of EDM, BSF",
+  //   issuing_body: "Baptist Student Fellowship",
+  //   year: "2024",
+  //   description: "Community volunteering experience.",
+  //   certificate_image: volunteer2,
+  // },
+  // {
+  //   title: "Prayer Head, BSF",
+  //   issuing_body: "Baptist Student Fellowship",
+  //   year: "2024",
+  //   description: "Community volunteering experience.",
+  //   certificate_image: volunteer3,
+  // },
   {
     title: "Member, BSF",
     issuing_body: "Baptist Student Fellowship",
