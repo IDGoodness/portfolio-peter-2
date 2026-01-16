@@ -11,14 +11,15 @@ const conferences = [
     title: "NIQRS Conference",
     issuing_body: "NIQRS, OAU",
     year: "2023",
-    description: "Attended and presented research findings.",
+    description: "Theme: Sustainable Infrastructural Management.",
     certificate_image: conference1,
   },
   {
-    title: "Ife Built Environment Summit 1.0",
+    title: "NIQS Young professional Technical Symposium And Exhibition (YPTSE)",
     issuing_body: "IBES",
     year: "2024",
-    description: "Participated in academic discussion and networking.",
+    description:
+      "Theme: Sustainability: Repositioning the Nigeria Built Environment.",
     certificate_image: conference2,
   },
   {

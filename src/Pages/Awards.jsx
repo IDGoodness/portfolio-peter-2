@@ -20,45 +20,45 @@ const awardsData = [
       "For the graduating student with the best average score in Computer Laboratory Workshop; Application of Quantity Surveying Software I and II (QTS 415 and QTS 517) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
     image_url: "/src/assets/awards/award1.jpg",
   },
-  {
-    id: 2,
-    title: "Certificate of Membership - Baptist Student Fellowship",
-    organization: "Mission Subgroup, Baptist Student Fellowship, OAU",
-    year: "2024",
-    category: "Leadership",
-    description: "For the immense contribution to the subgroup.",
-    image_url: "/src/assets/awards/award2.jpg",
-  },
-  {
-    id: 3,
-    title: "Certificate of Academic Excellence - Baptist Student Fellowship",
-    organization: "Academic Unit, Baptist Student Fellowship, OAU",
-    year: "2024",
-    category: "Academic",
-    description:
-      "As the best graduating student in the Faculty of Environmental Design and Management, Baptist Student Fellowship, Obafemi Awolowo University, in the 2022/2023 academic session.",
-    image_url: "/src/assets/awards/award3.jpg",
-  },
-  {
-    id: 4,
-    title: "Certificate of Appreciation - Baptist Student Fellowship",
-    organization: "Baptist Student Fellowship, OAU",
-    year: "2024",
-    category: "Leadership",
-    description:
-      "Commendation for contributing assiduosly to the successful Final Year Brethren program in the Baptist Student Fellowship, Obafemi Awolowo University, Ile-Ife, having served as the Prayer Head.",
-    image_url: "/src/assets/awards/award4.jpg",
-  },
-  {
-    id: 5,
-    title: "Certificate of Membership - Baptist Student Fellowship",
-    organization: "Baptist Student Fellowship, OAU",
-    year: "2024",
-    category: "Leadership",
-    description:
-      "Has been a member of the fellowship and graduated during the 2022/2023 academic session.",
-    image_url: "/src/assets/awards/award5.jpg",
-  },
+  // {
+  //   id: 2,
+  //   title: "Certificate of Membership - Baptist Student Fellowship",
+  //   organization: "Mission Subgroup, Baptist Student Fellowship, OAU",
+  //   year: "2024",
+  //   category: "Leadership",
+  //   description: "For the immense contribution to the subgroup.",
+  //   image_url: "/src/assets/awards/award2.jpg",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Certificate of Academic Excellence - Baptist Student Fellowship",
+  //   organization: "Academic Unit, Baptist Student Fellowship, OAU",
+  //   year: "2024",
+  //   category: "Academic",
+  //   description:
+  //     "As the best graduating student in the Faculty of Environmental Design and Management, Baptist Student Fellowship, Obafemi Awolowo University, in the 2022/2023 academic session.",
+  //   image_url: "/src/assets/awards/award3.jpg",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Certificate of Appreciation - Baptist Student Fellowship",
+  //   organization: "Baptist Student Fellowship, OAU",
+  //   year: "2024",
+  //   category: "Leadership",
+  //   description:
+  //     "Commendation for contributing assiduosly to the successful Final Year Brethren program in the Baptist Student Fellowship, Obafemi Awolowo University, Ile-Ife, having served as the Prayer Head.",
+  //   image_url: "/src/assets/awards/award4.jpg",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Certificate of Membership - Baptist Student Fellowship",
+  //   organization: "Baptist Student Fellowship, OAU",
+  //   year: "2024",
+  //   category: "Leadership",
+  //   description:
+  //     "Has been a member of the fellowship and graduated during the 2022/2023 academic session.",
+  //   image_url: "/src/assets/awards/award5.jpg",
+  // },
   {
     id: 6,
     title: "Consol Associates Prize.",
@@ -79,16 +79,16 @@ const awardsData = [
       "For the graduating student with the best average score in Measurement of Electrical Services Installation (QTS 511) and Measurement of Mechanical Services Installation (QTS 512) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
     image_url: "/src/assets/awards/award7.jpg",
   },
-  {
-    id: 8,
-    title: "Master Bill Micro Systems LTD Prize",
-    organization: "Obafemi Awolowo University, Ile-Ife, Nigeria",
-    year: "2024",
-    category: "Academic",
-    description:
-      "For the graduating student with the best average score in Computer Laboratory Workshop; Application of Quantity Surveying Software I and II (QTS 415 and QTS 517) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
-    image_url: "/src/assets/awards/award8.jpg",
-  },
+  // {
+  //   id: 8,
+  //   title: "Master Bill Micro Systems LTD Prize",
+  //   organization: "Obafemi Awolowo University, Ile-Ife, Nigeria",
+  //   year: "2024",
+  //   category: "Academic",
+  //   description:
+  //     "For the graduating student with the best average score in Computer Laboratory Workshop; Application of Quantity Surveying Software I and II (QTS 415 and QTS 517) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
+  //   image_url: "/src/assets/awards/award8.jpg",
+  // },
   {
     id: 9,
     title: "Award of Excellence - Mr Lecturer",
@@ -98,26 +98,26 @@ const awardsData = [
     description: "For outstanding performance and excellence in academics.",
     image_url: "/src/assets/awards/award9.jpg",
   },
-  {
-    id: 10,
-    title: "Mosobalaje A. Asupoto Prize",
-    organization: "Obafemi Awolowo University, Ile-Ife, Nigeria",
-    year: "2024",
-    category: "Academic",
-    description:
-      "For the graduating student with the best average score in Measurement of Electrical Services Installation (QTS 511) and Measurement of Mechanical Services Installation (QTS 512) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
-    image_url: "/src/assets/awards/award10.jpg",
-  },
-  {
-    id: 11,
-    title: "Consol Associates Prize.",
-    organization: "Consol Associates - OAU",
-    year: "2024",
-    category: "Academic",
-    description:
-      "For the best graduating student with the best average score in the Professional Practice and Procedure I and II (QTS 417 and QTS 518) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
-    image_url: "/src/assets/awards/award11.jpg",
-  },
+  // {
+  //   id: 10,
+  //   title: "Mosobalaje A. Asupoto Prize",
+  //   organization: "Obafemi Awolowo University, Ile-Ife, Nigeria",
+  //   year: "2024",
+  //   category: "Academic",
+  //   description:
+  //     "For the graduating student with the best average score in Measurement of Electrical Services Installation (QTS 511) and Measurement of Mechanical Services Installation (QTS 512) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
+  //   image_url: "/src/assets/awards/award10.jpg",
+  // },
+  // {
+  //   id: 11,
+  //   title: "Consol Associates Prize.",
+  //   organization: "Consol Associates - OAU",
+  //   year: "2024",
+  //   category: "Academic",
+  //   description:
+  //     "For the best graduating student with the best average score in the Professional Practice and Procedure I and II (QTS 417 and QTS 518) with a CGPA not less than 3.50 in the Department of Quantity Surveying.",
+  //   image_url: "/src/assets/awards/award11.jpg",
+  // },
   {
     id: 12,
     title: "Top 100 Africa Future Leaders 2025",
